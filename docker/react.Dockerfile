@@ -10,6 +10,6 @@ RUN pnpm install
 
 COPY react-app/ .
 
-EXPOSE 3000
+EXPOSE 5173 
 
 CMD ["pnpm", "dev"]
